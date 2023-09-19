@@ -1,0 +1,143 @@
+/* Custom CSS for Create Task Form and Edit Task Form */
+
+/* Center the form within the container */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed to center the form vertically */
+    padding: 20px; /* Add padding to the container */
+    text-align: center; /* Center-align the content within the container */
+}
+
+
+.form-box {
+    /*background-image: url('images/bg-form1.PNG'); /* URL to your background image */
+    background-size: cover; /* Cover the entire form-box with the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    border: 1px solid #ccc;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Make the form elements fill the container width */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #996262;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #415e7c; /* Blue color */
+    color: #f09c9c; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some spacing around the button */
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Style the validation error messages */
+.alert.alert-danger {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text color */
+    border: 1px solid #f5c6cb; /* Light red border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Custom CSS for the table */
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Gray background for headings */
+    text-align: center; /* Center align headings */
+}
+
+/* Center the icons in the "Action" column */
+td.action-column {
+    text-align: center;
+}
+
+/* Style for the container */
+.container-with-background {
+    /*background-image: url('images/bg-tb1.PNG');*/
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px; /* Add padding for spacing */
+}
+
+/* Style for the table inside the container */
+.container-with-background table {
+    width: 100%; /* Make the table fill the container width */
+    border: 1px solid #ccc; /* Add borders to the table */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style for table headings (centered) */
+.container-with-background table th {
+    text-align: center;
+}
+
+/* Style for table cells (left-aligned) */
+.container-with-background table td {
+    text-align: left;
+}
+
+.error-message {
+    background-color: #ee6f7a; /* Light red background */
+    color: #0e0c0c; /* Dark red text color */
+    border: 1px solid #b63948; /* Light red border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.alert-success {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px; /* Add some padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    position: fixed; /* Fixed position */
+    bottom: 10px; /* 10px from the bottom */
+    right: 10px; /* 10px from the right */
+    max-width: 200px; /* Maximum width for the box */
+    text-align: center; /* Center-align the text */
+}
+
+
+
